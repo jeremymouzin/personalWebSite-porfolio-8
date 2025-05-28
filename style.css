@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-  height: 60vh;
+  height: 55rem;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.896),
@@ -39,7 +39,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(80%);
+  filter: contrast(90%);
+  position: relative;
 }
 
 .header-nav {
@@ -48,18 +49,19 @@ body {
   align-items: center;
 }
 
-.header__title {
+.header-title {
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: bold;
   color: rgb(255, 255, 255);
+  text-shadow: 2px 0px 1px #666161;
   letter-spacing: 4px;
   padding: 2rem;
 }
 
 .main-nav-list {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   list-style: none;
   margin-right: 2rem;
   padding: 2rem;
@@ -70,7 +72,77 @@ body {
   text-transform: uppercase;
   color: rgba(255, 255, 255);
   font-size: 1.8rem;
+  text-shadow: 2px 1px 1px #666161;
   font-weight: bold;
   letter-spacing: 1.45px;
   padding: 1.7rem;
+  position: relative;
+  max-width: fit-content;
+}
+
+.main-nav-link:after {
+  content: "";
+  position: absolute;
+  height: 35px;
+  left: 0;
+  top: 9px;
+  width: 0;
+  background: rgba(205, 191, 85, 0.832);
+  transition: width 0.3s ease-in-out, border 0.3s ease-in-out,
+    border-radius 0.3s ease-in-out;
+}
+
+.main-nav-link:hover:after {
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.header-content {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-left: 6px solid white;
+  position: absolute;
+  padding: 2rem 2rem;
+  left: 30%;
+  top: 30%;
+}
+
+.header-presentation {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.header-name {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  color: white;
+  letter-spacing: 3.5px;
+  text-shadow: 1px 1px 1px white;
+  margin-top: -1.7rem;
+  word-spacing: 0.5rem;
+}
+
+.header-work {
+  color: white;
+  font-weight: 500;
+  font-size: 3.2rem;
+  letter-spacing: 1.3px;
+  word-spacing: 0.3rem;
+  margin-top: 3rem;
+}
+
+.header-cv {
+  text-decoration: none;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 300;
+  border: 4px solid rgba(205, 191, 85, 0.832);
+  padding: 0.5rem 1em;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  display: inline-block;
 }
