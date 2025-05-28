@@ -27,7 +27,16 @@ body {
   color: #777;
   box-sizing: border-box;
 }
+/*** LES VARIABLES REUTILISABLES ***/
 
+:root {
+  /* les couleurs de base  */
+  --color-primary: #cdbf55d4;
+  --color-white: #fff;
+  --text-shadow: #666161;
+}
+
+/*** HEADER ***/
 .header {
   height: 55rem;
   background-image: linear-gradient(
@@ -53,12 +62,13 @@ body {
   text-transform: uppercase;
   font-size: 2.4rem;
   font-weight: bold;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 0px 1px #666161;
+  color: var(--color-white);
   letter-spacing: 4px;
+  text-shadow: 2px 0px 1px var(--text-shadow);
+
   padding: 2rem;
 }
-
+/*** NAVBAR ***/
 .main-nav-list {
   display: flex;
   gap: 1rem;
@@ -70,9 +80,9 @@ body {
 .main-nav-link {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgba(255, 255, 255);
+  color: var(--color-white);
   font-size: 1.8rem;
-  text-shadow: 2px 1px 1px #666161;
+  text-shadow: 2px 1px 1px var(--text-shadow);
   font-weight: bold;
   letter-spacing: 1.45px;
   padding: 1.7rem;
@@ -87,22 +97,22 @@ body {
   left: 0;
   top: 9px;
   width: 0;
-  background: rgba(205, 191, 85, 0.832);
+  background: var(--color-primary);
   transition: width 0.3s ease-in-out, border 0.3s ease-in-out,
     border-radius 0.3s ease-in-out;
 }
 
 .main-nav-link:hover:after {
   width: 100%;
-  border: 2px solid white;
+  border: 2px solid var(--color-white);
   border-radius: 1rem;
   z-index: -1;
 }
-
+/*** hEADER-CONTENT ***/
 .header-content {
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
-  border-left: 6px solid white;
+  border-left: 6px solid var(--color-white);
   position: absolute;
   padding: 2rem 2rem;
   left: 30%;
@@ -110,7 +120,7 @@ body {
 }
 
 .header-presentation {
-  color: white;
+  color: var(--color-white);
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 2.5rem;
@@ -119,15 +129,15 @@ body {
 .header-name {
   text-transform: uppercase;
   font-size: 5.6rem;
-  color: white;
+  color: var(--color-white);
   letter-spacing: 3.5px;
-  text-shadow: 1px 1px 1px white;
+  text-shadow: 1px 1px 1px var(--color-white);
   margin-top: -1.7rem;
   word-spacing: 0.5rem;
 }
 
 .header-work {
-  color: white;
+  color: var(--color-white);
   font-weight: 500;
   font-size: 3.2rem;
   letter-spacing: 1.3px;
@@ -137,10 +147,10 @@ body {
 
 .header-cv {
   text-decoration: none;
-  color: white;
+  color: var(--color-white);
   font-size: 2.2rem;
   font-weight: 300;
-  border: 4px solid rgba(205, 191, 85, 0.832);
+  border: 4px solid var(--color-primary);
   padding: 0.5rem 1em;
   border-radius: 1rem;
   margin-top: 0.5rem;
