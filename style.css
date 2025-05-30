@@ -207,7 +207,7 @@ header {
 
 /* IMAGE PROFILE  */
 .img-card {
-  width: 50%;
+  flex-basis: 45%;
 }
 
 .img-card img {
@@ -218,7 +218,7 @@ header {
 
 /* INFORMATION DETAILS  */
 .informations-list-details {
-  width: 55%;
+  flex-basis: 55%;
   height: 100%;
 }
 
