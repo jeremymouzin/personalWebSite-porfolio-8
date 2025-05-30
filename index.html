@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>personal-porftfolio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,9 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <title>personal-porftfolio</title>
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="header-nav">
         <p class="header-title">Benjamin.</p>
         <nav class="main-nav">
@@ -33,5 +35,67 @@
         <a class="header-cv" href="#">Download CV</a>
       </div>
     </header>
+    <main>
+      <section class="section-about">
+        <h2><span>About</span>me</h2>
+        <span class="section-about-information">Informations</span>
+        <span class="section-about-me">About me</span>
+
+        <div class="information-list">
+          <div class="img-card">
+            <img src="./img/profil.jpg" alt="photo-profil" />
+          </div>
+          <div class="informations-list-details">
+            <p class="informations-list-details-name">I'm Benjamin Edgard</p>
+            <p class="informations-list-details-job">
+              <span>Javascript</span> and <span>React </span>Developer in
+              <span>Croatia</span>
+            </p>
+            <p class="informations-list-details-resume">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              culpa laboriosam enim reiciendis totam id velit. Est, consectetur
+              assumenda. Voluptatum illo odit eius doloremque ducimus libero
+              iste, incidunt eum facilis. Amet odio maiores dolorum sapiente
+              culpa necessitatibus
+            </p>
+
+            <div class="informations-datas">
+              <ul class="informations-datas-first">
+                <li><span>Birthday</span> : 12nd February 1986</li>
+                <li><span>Residence</span> : Zagreb, Croatie</li>
+                <li><span>Email</span>: benjamin.edgard@gmail.com</li>
+              </ul>
+              <ul class="informations-datas-second">
+                <li><span>Phone</span> : +385 923806037</li>
+                <li><span>Linkedin</span>: Linkedin</li>
+                <li><span>Freelance</span> : Available</li>
+              </ul>
+            </div>
+            <div class="icons">
+              <ul class="icons-items">
+                <li>
+                  <ion-icon class="linkedin" name="logo-linkedin"></ion-icon>
+                </li>
+                <li>
+                  <ion-icon
+                    class="javascript"
+                    name="logo-javascript"
+                  ></ion-icon>
+                </li>
+                <li><ion-icon class="react" name="logo-react"></ion-icon></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <scriptxs
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></scriptxs>
   </body>
 </html>
