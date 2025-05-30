@@ -1,0 +1,32 @@
+/*** HEADER ***/
+header {
+  height: 55rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.896),
+      rgba(0, 0, 0, 0.49)
+    ),
+    url(./img/codeur.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: contrast(90%);
+  position: relative;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--color-white);
+  letter-spacing: 4px;
+  text-shadow: 2px 0px 1px var(--text-shadow);
+
+  padding: 2rem;
+}
