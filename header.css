@@ -6,7 +6,7 @@ header {
       rgba(0, 0, 0, 0.896),
       rgba(0, 0, 0, 0.49)
     ),
-    url(/img/codeur.jpg);
+    url(img/codeur.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
