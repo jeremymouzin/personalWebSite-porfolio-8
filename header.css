@@ -27,7 +27,6 @@ header {
   color: var(--color-white);
   letter-spacing: 4px;
   text-shadow: 2px 0px 1px var(--text-shadow);
-
   padding: 2rem;
 }
 
