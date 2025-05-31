@@ -78,3 +78,29 @@ header {
   margin-top: 0.5rem;
   display: inline-block;
 }
+
+/* Ajustements pour tablettes et petits écrans */
+@media (max-width: 768px) {
+  header {
+    height: 40rem; /* réduire la hauteur */
+  }
+
+  .header-title {
+    font-size: 1.8rem; /* texte un peu plus petit */
+    padding: 1rem;
+    letter-spacing: 2px;
+  }
+}
+
+/* Ajustements pour mobiles */
+@media (max-width: 480px) {
+  header {
+    height: 30rem; /* encore plus petit */
+  }
+
+  .header-title {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+  }
+}
