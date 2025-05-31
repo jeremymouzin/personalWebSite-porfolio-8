@@ -142,9 +142,11 @@ FONT SIZE SYSTEM (px)
   flex-basis: 50%;
   list-style-type: none;
 }
-
+.informations-datas a {
+  text-decoration: none;
+  color: black;
+}
 .informations-datas span {
-  color: rgb(10, 18, 187);
   font-size: 2rem;
 }
 
