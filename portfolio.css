@@ -9,11 +9,11 @@ body {
 }
 
 .title-letter {
-  font-size: 17rem;
+  font-size: 15rem;
   color: var(--color-primary);
   letter-spacing: 1.45px;
   font-weight: 700;
-  animation: letter-animation ease-in-out 2s forwards;
+  animation: letter-animation ease-in-out 1.7s forwards;
 }
 
 @keyframes letter-animation {
