@@ -6,7 +6,7 @@ header {
       rgba(0, 0, 0, 0.896),
       rgba(0, 0, 0, 0.49)
     ),
-    url(./img/codeur.jpg);
+    url(./img/home.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -77,8 +77,5 @@ header {
   margin-top: 0.5rem;
   display: inline-block;
   transition: all 0.2s ease-in-out;
-}
-
-.header-cv:hover {
   background-color: #6560e9;
 }
