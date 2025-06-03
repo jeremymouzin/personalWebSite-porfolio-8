@@ -5,6 +5,7 @@
   list-style: none;
   margin-right: 2rem;
   padding: 2rem;
+  justify-content: flex-end;
 }
 
 .main-nav-link {
@@ -38,4 +39,3 @@
   border-radius: 1rem;
   z-index: -1;
 }
-

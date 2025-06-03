@@ -3,12 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css" />
   </head>
   <body>
-    <header class="title">
-    <h1 class="title-letter">Portfolio</>
+    <header>
+      <div class="header-nav">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="index.html">Home</a></li>
+            <li><a class="main-nav-link" href="#section-about">About</a></li>
+            <li>
+              <a class="main-nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="main-nav-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <p class="header-title">PORTFOLIO</p>
+  
     </header>
+    <section class="section-card">
+      <div class="container-card">
+
+        <!-- STEP 1 -->
+        <div class="container-card-text">
+          <p class="container-card-number">01</p>
+          <h2 class="container-card-title">Kasa</h2>
+          <p class="container-card-description">The Kasa project involves building a real estate rental web app in React with dynamic listings and navigation using React Router.</p>
+        </div>
+        <div class="card-img kasa">
+          <a href=""><img src="/img/kasa.jpg" alt="logo de kasa"></a>
+            <a href=""><ion-icon class="cross" name="add-outline"></ion-icon></a>
+          
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="card-img omnifood">
+          <a href=""><img src="/img/omnifood-logo.png" alt="logo de omnifood"></a>
+          <a href=""><ion-icon class="cross" name="add-outline"></ion-icon></a>
+        </div>
+         <div class="container-card-text">
+          <p class="container-card-number">02</p>
+          <h2 class="container-card-title">Omnifood</h2>
+          <p class="container-card-description">The Omnifood project involves creating a responsive food delivery website using HTML, CSS, and JavaScript with modern design principles.</p>
+        </div>
+ <!-- STEP 3-->
+   <div class="container-card-text">
+          <p class="container-card-number">03</p>
+          <h2 class="container-card-title">Kanap</h2>
+          <p class="container-card-description">The Kanap project is an e-commerce website built with JavaScript, featuring product display and cart management via an API.</p>
+        </div>
+        <div class="card-img kanap">
+          <a href=""><img class="kanap-img" src="/img/kanap.png" alt="logo de kanap"></a>
+            <a href=""><ion-icon class="cross-kanap" name="add-outline"></ion-icon></a>
+        </div>
+      </div>
+
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
