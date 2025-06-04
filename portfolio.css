@@ -127,6 +127,9 @@ body {
 }
 
 .card-img img {
+  width: 60%;
+  display: flex;
+  justify-self: center;
   margin-top: 4rem;
   mix-blend-mode: multiply;
 }
@@ -149,18 +152,19 @@ body {
   align-items: center;
 }
 
-.card-img img {
-  width: 60%;
-  display: flex;
-  justify-self: center;
-}
-
 .card-img:hover {
   transform: perspective(3000px) rotateY(0deg);
 }
 
 .card-img.kanap {
+   transform: perspective(1500px) rotateX(18deg);
+  transition: transform 1s ease 0s;
   background-color: rgb(27, 108, 137);
+}
+
+
+.card-img.kanap:hover {
+  transform: perspective(3000px) rotateX(0deg);
 }
 
 .card-img.kanap img {
