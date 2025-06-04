@@ -82,6 +82,11 @@ body {
   height: 10rem;
   border: 4px solid white;
   margin-bottom: 2rem;
+  transition: all 1s ease-in-out ;
+}
+
+.container-card-number:hover {
+  transform: rotate(360deg);
 }
 
 .container-card-title {
