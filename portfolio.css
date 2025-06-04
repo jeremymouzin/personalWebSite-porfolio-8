@@ -22,7 +22,7 @@ body {
   color: var(--color-white);
   letter-spacing: 1.75px;
   font-weight: 700;
-  animation: letter-animation ease-in-out 1.5s forwards;
+  animation: letter-animation ease-in-out 1s forwards;
 }
 
 @keyframes letter-animation {
@@ -117,7 +117,8 @@ body {
   background-color: #f89c9c;
   justify-self: center;
   align-self: end;
-  transition: all 1s ease-in-out;
+  transform: perspective(1500px) rotateY(15deg);
+  transition: transform 1s ease 0s;
 }
 
 .card-img img {
@@ -150,7 +151,7 @@ body {
 }
 
 .card-img:hover {
-  transform: scale(1.06);
+  transform: perspective(3000px) rotateY(5deg);
 }
 
 .card-img.kanap {
