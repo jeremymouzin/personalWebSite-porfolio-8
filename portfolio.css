@@ -122,7 +122,7 @@ body {
   background-color: #f89c9c;
   justify-self: center;
   align-self: end;
-  transform: perspective(1500px) rotateY(18deg);
+  transform: perspective(1500px) rotateY(-18deg);
   transition: transform 1s ease 0s;
 }
 
@@ -138,7 +138,7 @@ body {
   background-color: orange;
   justify-self: center;
   align-self: end;
-   transform: perspective(1500px) rotateY(-18deg);
+   transform: perspective(1500px) rotateY(18deg);
     transition: transform 1s ease 0s;
 }
 
