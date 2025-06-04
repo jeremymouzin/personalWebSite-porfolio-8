@@ -21,22 +21,6 @@
   padding: 0rem 0.6rem 0rem 0rem;
 }
 
-.section-about-information,
-.section-about-me {
-  text-transform: uppercase;
-  font-size: 1.7rem;
-  color: black;
-  font-weight: 600;
-  padding: 0.5rem 0rem 0rem 1rem;
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-
-.section-about-me {
-  padding: 0.5rem 0rem 0rem 0rem;
-  margin-left: 0.7rem;
-}
-
 .information-list {
   margin-top: 2rem;
   display: flex;
@@ -49,7 +33,7 @@
 }
 
 .img-card img {
-  height: 48rem;
+  height: 42rem;
   max-width: 100%;
   margin: 0.4rem 0 0 0;
   border-radius: 0.5rem;
