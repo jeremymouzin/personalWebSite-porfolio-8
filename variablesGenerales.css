@@ -31,3 +31,14 @@ body {
   /**poids police*/
   --fw-regular: 500;
 }
+
+/* CLASSES REUTILISABLES*/
+
+/*ELEMENT NAV BAR SELECTIONNE */
+.main-nav-link.nav-link-selected {
+  pointer-events: none;
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: var(--color-primary);
+  text-decoration-thickness: 4px;
+}

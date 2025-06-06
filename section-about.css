@@ -33,7 +33,7 @@
 }
 
 .img-card img {
-  height: 73.5%;
+  height: 100%;
   max-width: 100%;
   margin: 0.4rem 0 0 0;
   border-radius: 0.5rem;
@@ -95,7 +95,7 @@
   font-weight: var(--fw-regular);
   color: rgba(0, 0, 0, 0.823);
   padding: 1rem 0rem 1rem 2rem;
-  margin-bottom: 1.4rem;
+  margin-top: 1.4rem;
   letter-spacing: 0.2px;
   border: 3px solid var(--color-primary);
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.504);

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <header>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,22 +11,23 @@
     />
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css" />
-  </head>
+  </header>
   <body>
     <header>
-      <div class="header-nav">
+      <div class="header-nav" id="portfolio">
         <nav class="main-nav">
           <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="index.html">Home</a></li>
-            <li><a class="main-nav-link" href="index.html#section-about">About</a></li>
+            <li><a class="main-nav-link" href="/index.html">Home</a></li>
+            <li><a class="main-nav-link" href="/index.html#section-about">About</a></li>
             <li>
-              <a class="main-nav-link" href="portfolio.html">Portfolio</a>
+              <a class="main-nav-link nav-link-selected ">Portfolio</a>
             </li>
-            <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+           
           </ul>
-        </nav>
-        <p class="header-title">PORTFOLIO</p>
+           <p class="header-title">portfolio</p>
   
+        </nav>
+       
     </header>
     <section class="section-card">
       <div class="container-card">
@@ -38,13 +39,13 @@
           <p class="container-card-description">The Kasa project involves building a real estate rental web app in React with dynamic listings and navigation using React Router.</p>
         </div>
         <div class="card-img kasa">
-                   <a href="https://bedgard.github.io/Kasa-project-6/"><img src="./img/kasa.jpg" alt="logo de kasa"></a>
+                   <a href="https://bedgard.github.io/Kasa-project-6/"><img src="kasa.jpg" alt="logo de kasa"></a>
             <a href="https://bedgard.github.io/Kasa-project-6/"><ion-icon class="cross" name="add-outline"></ion-icon></a>
         </div>
 
         <!-- STEP 2 -->
         <div class="card-img omnifood">
-          <a href="https://bedgard.github.io/Omnifood-project-7/"><img src="img/omnifood-logo.png" alt="logo de omnifood"></a>
+          <a href="https://bedgard.github.io/Omnifood-project-7/"><img src="omnifood-logo.png" alt="logo de omnifood"></a>
           <a href="https://bedgard.github.io/Omnifood-project-7/"><ion-icon class="cross" name="add-outline"></ion-icon></a>
         </div>
          <div class="container-card-text">
@@ -59,11 +60,13 @@
           <p class="container-card-description">The Kanap project is an e-commerce website built with JavaScript, featuring product display and cart management via an API.</p>
         </div>
         <div class="card-img kanap">
-          <a href="https://github.com/Bedgard/Kanap-project-4"><img class="kanap-img" src="img/kanap.png" alt="logo de kanap"></a>
+          <a href="https://github.com/Bedgard/Kanap-project-4"><img class="kanap-img" src="kanap.png"logo de kanap"></a>
             <a href="https://github.com/Bedgard/Kanap-project-4"><ion-icon class="cross-kanap" name="add-outline"></ion-icon></a>
         </div>
       </div>
-
+   <a href="#portfolio" class="btn-scrolling" >
+       <ion-icon name="arrow-up-outline"></ion-icon></a>
+    
     </section>
     <script
       type="module"
