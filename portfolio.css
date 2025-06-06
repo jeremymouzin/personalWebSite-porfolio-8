@@ -20,11 +20,12 @@ body {
 
 /* ANIMATION PORTFOLIO  */
 .header-title {
-  font-size: 10rem;
+  font-size: 8rem;
   color: var(--color-white);
   letter-spacing: 1.75px;
   font-weight: 700;
   animation: letter-animation ease-in-out 1s forwards;
+  text-transform: uppercase;
 }
 
 @keyframes letter-animation {
@@ -100,7 +101,7 @@ body {
 
 .container-card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 18rem;
   column-gap: 4rem;
   margin: 8rem 8rem;
